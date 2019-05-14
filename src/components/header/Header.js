@@ -1,20 +1,12 @@
+import { IonHeader, IonTitle, IonToolbar } from '@ionic/react';
 import React, { Component } from 'react';
-import {
-  IonHeader,
-  IonButtons,
-  IonToolbar,
-  IonBackButton,
-  IonTitle
-} from '@ionic/react';
+
 class Header extends Component {
   render() {
     return (
-      <IonHeader >
+      <IonHeader>
         <IonToolbar color="primary">
-          <IonButtons slot="start" danger>
-            <IonBackButton goBack={() => {}} />
-          </IonButtons>
-          <IonTitle>My Navigation Bar</IonTitle>
+          <IonTitle>React Ionic</IonTitle>
         </IonToolbar>
       </IonHeader>
     );

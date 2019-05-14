@@ -1,5 +1,6 @@
+import { IonFooter, IonTitle, IonToolbar } from '@ionic/react';
 import React, { Component } from 'react';
-import { IonFooter, IonToolbar, IonTitle } from '@ionic/react';
+
 class Footer extends Component {
   render() {
     return (
