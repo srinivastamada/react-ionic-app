@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <IonHeader>
-        <IonToolbar color="danger">
+        <IonToolbar color="dark">
           <IonTitle>Ionic React</IonTitle>
         </IonToolbar>
       </IonHeader>

@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <IonFooter>
-        <IonToolbar color="danger">
+        <IonToolbar color="dark">
           <IonTitle>9lessons.info</IonTitle>
         </IonToolbar>
       </IonFooter>
