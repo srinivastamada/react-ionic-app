@@ -1,4 +1,12 @@
-import { IonCard, IonCardHeader, IonCardTitle, IonContent } from '@ionic/react';
+import {
+  IonCard,
+  IonCardHeader,
+  IonCardTitle,
+  IonContent,
+  IonItem,
+  IonLabel,
+  IonList
+} from '@ionic/react';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -8,15 +16,19 @@ class About extends Component {
       <IonContent>
         <IonCard>
           <IonCardHeader>
-            <IonCardTitle>Welcome to About Page</IonCardTitle>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/settings">Settings</Link>
-              </li>
-            </ul>
+            <IonCardTitle>About Page</IonCardTitle>
+            <IonList>
+              <IonItem>
+                <IonLabel>
+                  <Link to="/">Home</Link>
+                </IonLabel>
+              </IonItem>
+              <IonItem>
+                <IonLabel>
+                  <Link to="/settings">Settings</Link>
+                </IonLabel>
+              </IonItem>
+            </IonList>
           </IonCardHeader>
         </IonCard>
       </IonContent>

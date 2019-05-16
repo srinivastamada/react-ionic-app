@@ -1,0 +1,7 @@
+{
+  "appId": "com.reactionic.com",
+  "appName": "ReactIonic",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "build"
+}

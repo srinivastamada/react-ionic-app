@@ -1,4 +1,5 @@
 import {
+  IonButton,
   IonCard,
   IonCardHeader,
   IonCardTitle,
@@ -12,13 +13,22 @@ class Home extends Component {
     return (
       <IonContent>
         <IonCard>
+          <img
+            src="https://pbs.twimg.com/profile_banners/15761916/1509766298/1500x500"
+            alt="Pic"
+          />
           <IonCardHeader>
-            <IonCardTitle>Welcome to Home Page</IonCardTitle>
-            <ul>
-              <li><Link to="/about">About</Link></li>
-              <li> <Link to="/settings">Settings</Link></li>
-            </ul>
+            <IonCardTitle>Welcome to Ionic React Project</IonCardTitle>
           </IonCardHeader>
+        </IonCard>
+        <IonCard>
+          <Link to="/about">
+            <IonButton color="secondary">About</IonButton>
+          </Link>
+
+          <Link to="/settings">
+            <IonButton color="danger">Settings</IonButton>
+          </Link>
         </IonCard>
       </IonContent>
     );
